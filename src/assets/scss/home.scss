@@ -1,0 +1,16 @@
+.home {
+  background-color: #000000;
+  height: 100vh;
+
+  .playlists {
+     &__grid {
+       display: grid;
+       grid-gap: 10px;
+       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+       img {
+         width: 100%;
+       }
+     }
+  }
+}
